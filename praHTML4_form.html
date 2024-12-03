@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>フォームタグの練習</h1>
+  <form >
+    <div>
+      <label for="name">名前：</label>
+      <input type="text" id="name" placeholder="名前を入力してください">
+    </div>
+    <br>
+    <div>
+      <label for="mail">メールアドレス：</label>
+      <input type="email" id="mail" name="mail" placeholder="メールアドレスを入力してください">
+    </div>
+    <br>
+    <div>
+      <label for="man">男</label>
+      <input type="radio" id="man" name="sex" value="man">
+      <label for="woman">女</label>
+      <input type="radio" id="woman" value="woman" name="sex" >
+      <label for="others">その他</label>
+      <input type="radio" id="others" value="others" name="sex" >
+    </div>
+    <br>
+    <div>
+      <label for="soccer">サッカー</label>
+      <input type="checkbox" id="soccer" value="soccer" name="hobby">
+      <label for="basebale">野球</label>
+      <input type="checkbox" id="basebale" value="basebale" name="hobby">
+      <label for="other">その他</label>
+      <input type="checkbox" id="other" value="other" name="hobby">
+    </div>
+    <br>
+    <div>
+      <input type="submit" title="送信">
+      <button type="submit">送信</button>
+
+    </div>
+  </form>
+</body>
+</html>
